@@ -1,0 +1,54 @@
+body {
+ background-color: #242423;
+}
+
+.background-picture{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 4.0em;
+}
+
+h2 {
+  color: white;
+  font-size: 2.0em;
+}
+
+.footer-main {
+  position:static;
+  color: white;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #333332;
+  text-align: center;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.page-content{
+  padding-top: 250px;
+  padding-bottom: 50px;
+}
+
+.sidenav{
+
+
+}
+
+pre{
+  background-color: inherit;
+}
+
+.profile-content{
+  padding-left: 5em;
+  padding-right: 5em;<!DOCTYPE html>
+}
