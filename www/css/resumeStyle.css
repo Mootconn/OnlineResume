@@ -27,15 +27,8 @@ h3 {
   color: white;
 }
 
-.footer-main {
-  position:static;
+h4 {
   color: white;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #1a1a1a;
-  text-align: center;
 }
 
 .btn {
@@ -44,11 +37,13 @@ h3 {
 
 .page-content{
   padding-top: 250px;
-  padding-bottom: 50px;
+
 }
 
 pre{
   background-color: inherit;
+  color: #adabaa;
+  width: 300px;
 }
 
 .profile-content{
@@ -56,9 +51,18 @@ pre{
   padding-right: 5em;
 }
 
+.experience-content{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .education{
   padding-top: 2em;
   padding-bottom: 2em;
+  padding-left: 130px;
+  padding-right: 130px;
 }
 
 .well-sm{
@@ -72,4 +76,8 @@ pre{
   color: white;
   padding: 1rem;
   border: none;
+}
+
+.spacing{
+  padding-top: 15px;
 }
