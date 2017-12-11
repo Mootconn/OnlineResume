@@ -2,6 +2,10 @@ body {
  background-color: #242423;
 }
 
+p {
+  color: #adabaa;
+}
+
 .background-picture{
   background-image: url("background.jpg");
   background-repeat: no-repeat;
@@ -19,6 +23,10 @@ h2 {
   font-size: 2.0em;
 }
 
+h3 {
+  color: white;
+}
+
 .footer-main {
   position:static;
   color: white;
@@ -26,7 +34,7 @@ h2 {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #333332;
+  background-color: #1a1a1a;
   text-align: center;
 }
 
@@ -39,16 +47,29 @@ h2 {
   padding-bottom: 50px;
 }
 
-.sidenav{
-
-
-}
-
 pre{
   background-color: inherit;
 }
 
 .profile-content{
   padding-left: 5em;
-  padding-right: 5em;<!DOCTYPE html>
+  padding-right: 5em;
+}
+
+.education{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.well-sm{
+  background: inherit;
+
+}
+
+.navbar-default{
+  background-color: #1a1a1a;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  border: none;
 }

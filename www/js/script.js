@@ -1,4 +1,4 @@
-
+/**NAVBAR**/
 document.getElementById("navMenu").innerHTML +=
   '<div class="row">'+
     '<div class="col-sm-4">'+
@@ -9,10 +9,10 @@ document.getElementById("navMenu").innerHTML +=
       '<a href="profile.html">PROFILE</a>'+
     '</div>'+
     '<div class="col-sm-1">'+
-      'EXPERIENCE'+
+      '<a href="experience.html">EXPERIENCE</a>'+
     '</div>'+
     '<div class="col-sm-1">'+
-      'CONTACT'+
+      '<a href="contact.html">CONTACT</a>'+
     '</div>'+
     '<div class="col-sm-4">'+
       '<!--Spacing-->'+
