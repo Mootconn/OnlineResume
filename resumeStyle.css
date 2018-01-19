@@ -1,0 +1,104 @@
+body {
+ background-color: #242423;
+}
+
+p {
+  color: #adabaa;
+}
+
+p2 {
+  color: white;
+}
+
+.background-picture{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 4.0em;
+}
+
+h2 {
+  color: white;
+  font-size: 2.0em;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+/*Onlineresumept2 starts here */
+
+.contact_info {
+  background-color: grey;
+  border: solid #000;
+  border-width: 1px;
+  border-color: white;
+}
+
+.bg-grey {
+  background-color: #161616;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+.navbar-default{
+  background-color: #1a1a1a;
+  border: none;
+}
+
+.contact {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/*SLIDE ANIMATION */
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
